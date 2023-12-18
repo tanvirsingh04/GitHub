@@ -73,14 +73,30 @@
     </table>
     <h3> This is my HTML Form</h3>
     <form action="backend.php">
-        Name : <input type="text">
-        Moble Number : <input type="number">
-        Email Id : <input type="email">
-        <Input type="submit" value="Submit Now"></Input>
+        <div>
+
+            Name : <input type="text" name="MyName">
+        </div>
+        <div>
+            Moble Number : <input type="number" name="MyNumber">
+        </div>
+
+        <div>
+            Email Id : <input type="email" name="MyEmai">
+        </div>
+        <div>
+            Date and Time : <input type="date" name="Mydate">
+            <div>
+                Gender : Male<input type="radio" name="MyGender"> Female <input type="radio" name="MyGender">
+            </div>
+        </div>
+        <div>
+            <Input type="submit" value="Submit Now"></Input>
+        </div>
 
 
     </form>
-    
+
 </body>
 
 </html>
