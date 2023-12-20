@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
     <title>Document</title>
 </head>
 
@@ -15,13 +15,19 @@
         web browser. It defines the content and structure of web content. It is often assisted by technologies such as
         Cascading Style Sheets (CSS) and scripting languages such as JavaScript.</P>
     <form>
+        <h2><strong> Information </strong></h2>
         <br>
         <div>
-            <label form="name">Name </label>  <input type="text" name="Name" id="name">
-           
-        
+            <label for="Fname">First Name</label>
+            <input type="text" name="FirstName" id="Fname">
         </div>
         </br>
+
+        <br>
+        <div>
+            <label for="Lname">Last Name</label>
+            <input type="text" name="LastName" id="Lname">
+        </div>
 
         <br>
         <div>
@@ -38,6 +44,17 @@
             Age : <input type="number" name="Age" id="Myage">
         </div>
         </br>
+
+        <br>
+        <div>
+            Gender : Male<input type="radio" name="MyGender" > Female <input type="radio" name="MyGender">
+        </div>
+    </br>
+    <br>
+    <div>
+       <label for="remarks">Remarks</label>
+         <textarea type="text" name="Remarks" cols="15" rows="10" id="remarks"></textarea>
+    </div>
 
     </form>
 
